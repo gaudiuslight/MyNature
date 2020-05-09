@@ -1,0 +1,14 @@
+{
+  "name": "mynature",
+  "version": "1.0.0",
+  "description": "My Nature Version",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "author": "Gaudi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
