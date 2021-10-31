@@ -27,6 +27,14 @@
             &-1 {
                 background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
             }
+            
+            &-2 {
+                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+            }
+            
+            &-3 {
+                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+            }
         }
     }
 
@@ -52,8 +60,13 @@
         }
 
         &--2{
-            background-image: url('../img/nature-5.jpg');
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url('../img/nature-6.jpeg');
         }
+
+        &--3{
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url('../img/nature-5.jpg');
+        }
+
     }
 
     &__heading {
@@ -80,6 +93,24 @@
                 rgba($color-secondary-dark, 0.70)
             );
         }
+
+        &--2 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-secondary-light, 0.70),
+                rgba($color-secondary-dark, 0.70)
+            );
+        }
+
+        &--3 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-secondary-light, 0.70),
+                rgba($color-secondary-dark, 0.70)
+            );
+        }
+
+
     }
 
     &__details {
@@ -102,5 +133,30 @@
         }
     }
 
+    &__cta {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+
+    &__price-box {
+        text-align: center;
+        color: white;
+        margin-bottom: 8rem;
+    }
+
+    &__price-only {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+
+    &__price-value{
+        font-size: 6rem;
+        font-weight: 100;
+
+    }
 
 }
